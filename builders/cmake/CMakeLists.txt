@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.6.3)
+SET(ENV{COMPILE_STATIC} "1")
 
 IF(DEFINED CMAKE_BUILD_TYPE)
      SET(CMAKE_BUILD_TYPE ${CMAKE_BUILD_TYPE} CACHE STRING "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel")
